@@ -221,6 +221,7 @@ button {
        display: block;
   margin-left: -45px;
   margin-right: 90px;
+  }
 
 div {
     display: inline-block;
@@ -236,7 +237,7 @@ img {
     height: 100%;
     z-index: -1;
 }
-	  
+
 h1 {
 	font-family: billabong;
 	font-size: 150px;
