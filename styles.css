@@ -60,7 +60,7 @@ body{
 }
 
 .wrapper .header .content #add-cafe-form .input{
-	width: 100%;
+	width: 89%;
 	height: 55px;
 	background: #fafafa;
 	border: 1px solid #efefef;
@@ -87,6 +87,7 @@ button {
     text-align: center;
     padding: 13px 320px;
 	font-size:40px;
+	width: 11%;
 }
 
 .wrapper .header .content a{
