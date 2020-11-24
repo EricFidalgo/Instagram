@@ -22,7 +22,7 @@ body{
 }
 
 .wrapper .header{
-	max-width: 300px;
+	max-width: 800px;
 	width: 100%;
 	display: block;
 	margin-left: auto;
@@ -210,10 +210,6 @@ margin-left: 15rem;
   margin-right: 90px;
   }
 
-div {
-    display: inline-block;
-    position: relative;
-}
 
 img {
     pointer-events: none;
