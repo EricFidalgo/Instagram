@@ -172,15 +172,12 @@ button {
 	margin: 0 5px;
 }
 
-.footer{
+#he{
 	position: fixed;
 	left:0;
 	bottom:0;
 	width:100%;
-	background-color:#eeeeee;
-	color:#333333;
-	text-align:center;
-	border-radius:15px 15px 0px 0px;
+	border-top:1px solid #5555;
 }
 
 .footer .links ul li{
