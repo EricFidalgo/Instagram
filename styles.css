@@ -173,12 +173,11 @@ button {
 }
 
 .footer{
-	position: sticky;
-	max-width: 950px;
-	width: 100%;
-	margin: auto;
-	text-align:center;
-	justify-content: space-between;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
 }
 
 .footer .links ul li{
