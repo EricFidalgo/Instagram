@@ -16,7 +16,6 @@
 	box-sizing: inherit;
 	padding-top: rem;
 	justify-content: space-between;
-	flex-direction: column;
 }
 
 body{
@@ -28,8 +27,6 @@ body{
 .wrapper .header{
 	max-width: 800px;
 	width: 100%;
-
-	margin: 50px 0px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -54,7 +51,7 @@ body{
 }
 
 .wrapper .header .content #add-cafe-form .input{
-	width: 87%;
+	width: 97%;
 	height: 55px;
 	background: #fafafa;
 	border: 1px solid #efefef;
@@ -81,7 +78,7 @@ button {
     text-align: center;
     padding: 13px 320px;
 	font-size:40px;
-	width: 10%;
+	width: 19.4%;
 }
 
 .wrapper .header .content a{
@@ -105,7 +102,7 @@ button {
 }
 
 .wrapper .dif .fb{
-	display: flex;  
+margin-left: 15rem;
 }
 
 .wrapper .dif .fb img{
@@ -126,9 +123,6 @@ button {
 	margin-top: 20px;
 }
 
-#lol {
-	text-align: center;
-}
 
 .wrapper .dif .forgot a{
 	color: #003569;
@@ -221,7 +215,6 @@ button {
 
 div {
     display: inline-block;
-    overflow: hidden;
     position: relative;
     width: 100%;
 }
