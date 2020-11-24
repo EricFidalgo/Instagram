@@ -173,6 +173,7 @@ button {
 }
 
 .footer{
+	position: sticky;
 	max-width: 950px;
 	width: 100%;
 	margin: auto;
