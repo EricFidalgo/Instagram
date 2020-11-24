@@ -13,16 +13,10 @@
 	list-style: none;
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
-	    box-sizing: inherit;
-
-    
-
+	box-sizing: inherit;
 	padding-top: rem;
 	justify-content: space-between;
 	flex-direction: column;
-
-	
-
 }
 
 body{
@@ -97,10 +91,7 @@ button {
 
 .wrapper .header .or{
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
 	height: 30px;
-	margin: 0px 0 20px;
 }
 
 .wrapper .header .or .line{
@@ -114,10 +105,7 @@ button {
 }
 
 .wrapper .dif .fb{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	   
+	display: flex;  
 }
 
 .wrapper .dif .fb img{
@@ -135,8 +123,11 @@ button {
 
 .wrapper .dif .forgot{
 	font-size: 30px;
-	text-align: center;
 	margin-top: 20px;
+}
+
+#lol {
+	text-align: center;
 }
 
 .wrapper .dif .forgot a{
