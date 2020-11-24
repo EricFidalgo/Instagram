@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+@font-face {
+	src: url(font/Billabong.ttf);
+	font-family: billa;
+}
+
 *{
 	margin: 0;
 	padding: 0;
